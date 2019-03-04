@@ -1,0 +1,49 @@
+@media only screen and (min-width: 1500px) {
+	.container{
+		max-width: 1440px;
+		margin: auto;
+	}
+
+	.block-center {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.left-block{
+		margin-left: 15%;
+	}
+
+	.second__btn{
+		left: 15%;
+	}
+
+	.fourth__offer {
+   	 	margin-left: 15%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.header{
+		background: url(../img/fontablet.jpg) no-repeat center top / cover;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	.header{
+		background: url(../img/fonmob.jpg) no-repeat center top / cover;
+	}
+
+	.hamburger{
+		display: block;
+		padding-right: 30px;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.icon{
+		display: flex;
+	}
+}
