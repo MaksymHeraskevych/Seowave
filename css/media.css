@@ -82,6 +82,10 @@
 	.model{
 		right: 15%;
 	}
+
+	.figure-bottom {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 840px) {
@@ -183,10 +187,6 @@
 	    padding-bottom: 40px;
 	    width: 50%;
 		margin-left: 25%;
-	}
-
-	.figure-bottom {
-		display: none;
 	}
 }
 

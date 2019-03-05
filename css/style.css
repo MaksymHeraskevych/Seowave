@@ -60,6 +60,14 @@ p{
 	margin-right: 60px;
 }
 
+.list a{
+	padding: 5px;
+}
+
+.list:hover{
+	border-bottom: 1px solid #e0e0e0;
+}
+
 .hamburger{
 	width: 35px;
 	cursor: pointer;
@@ -122,6 +130,11 @@ p{
     right: 10%;
     margin-right: -100px;
     max-height: 890px;
+    cursor: pointer;
+}
+
+.model:hover{
+	
 }
 
 .block-second{
