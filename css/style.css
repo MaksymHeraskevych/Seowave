@@ -107,7 +107,7 @@ p{
 	font-weight: 700;
 	font-size: 18px;
 	position: absolute;
-	margin-top: 550px;
+	margin-top: 570px;
 	left: 25%;
 	outline: none;
 	box-shadow: 1px 1px 20px 2px rgba(0, 1, 1, 0.47);
@@ -151,12 +151,12 @@ p{
 	max-width: 460px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	position: absolute;
 }
 
 .second__btn{
-	left: 5%;
-	margin-top: 170px;
+	position: relative;
+	left: 0%;
+	margin-top: 40px;
 	background: #bc2e3a;
 	color: #fff;
 	box-shadow: 1px 1px 20px 2px rgba(0, 1, 1, 0.2);
@@ -222,23 +222,21 @@ p{
 	max-width: 295px;
 }
 
-.fourth-img{
-	width: 100%;
-}
-
 .image{
 	position: relative;
 	padding-bottom: 200px;
+	margin-top: -50px;
+	margin-right: 1.7%;
 }
 
-.switch{
-	margin: 0 2%;
+.fourth-img{
+	width: 110%;
 }
 
 .block-info{
 	position: absolute;
-	margin-left: 75px;
-	margin-top: -130px;
+	margin-left: 80px;
+	margin-top: -135px;
 	color: #fff;	
 }
 
@@ -289,6 +287,10 @@ p{
 	align-items: center;
 	justify-content: space-between;
 	padding-bottom: 110px;
+}
+
+.switch{
+	margin: 0 2%;
 }
 
 .people-block__img{
@@ -370,6 +372,7 @@ p{
 
 .sixth__offer{
 	margin-left: 16%;
+	position: relative;
 }
 
 .sixth__figure-right{
@@ -390,6 +393,7 @@ p{
     max-width: 740px;
     color: #6a6a6a;
     font-style: italic;
+    position: relative;
 }
 
 .withdrawa-name{
@@ -468,6 +472,10 @@ p{
 .copy{
 	text-align: center;
 	letter-spacing: 0.08em;
+	position: relative;
+	max-width: 700px;
+	margin:auto;
+
 }
 
 .figure-bottom{

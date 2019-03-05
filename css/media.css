@@ -13,12 +13,12 @@
 		margin-left: 15%;
 	}
 
-	.second__btn{
-		left: 15%;
-	}
-
 	.fourth__offer {
    	 	margin-left: 15%;
+	}
+
+	.fourth__description{
+		max-width: 460px;
 	}
 }
 
@@ -26,9 +26,65 @@
 	.header{
 		background: url(../img/fontablet.jpg) no-repeat center top / cover;
 	}
+
+	.block-second{
+		flex-direction: column-reverse;
+	}
+
+	.block-second__left{
+		margin-left: 0%;
+		width: 100%;
+	    text-align: center;
+	}
+
+	.second__offer{
+		position: absolute;
+	}
+
+	.right-block{
+		border-bottom: 1px solid #c6c6c6;
+	}
+
+	.second__offer {
+	    position: absolute;
+	    margin-top: -62%;
+	    color: #fff;
+	    margin-left: 7%;
+	}
+
+	.description{
+		padding-top: 40px;
+		margin: auto;
+	}
+
+	.second__btn{
+		margin-bottom: 60px;
+	}
+
+	.fourth-block{
+		flex-direction: column;
+	}
+
+	.fourth__description{
+		margin-left: 0;
+	}
+
+	.image{
+		padding-top: 40px;
+	    margin-right: 0;
+	    width: 98%;
+	}
+
+	.fourth-img{
+		width: 100%;
+	}
+
+	.model{
+		right: 15%;
+	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 840px) {
 
 	.header{
 		background: url(../img/fonmob.jpg) no-repeat center top / cover;
@@ -43,7 +99,94 @@
 		display: none;
 	}
 
+	.second__offer {
+	    margin-top: -65%;
+	    margin-left: 10%;
+	    font-size: 30px;
+	}
+
 	.icon{
 		display: flex;
 	}
+
+	.left-block{
+		width: 90%;
+	}
+
+
+	.model{
+		display: none;
+	}
+
+	.first__btn{
+		left: 50%;
+    	margin-left: -130px;
+   		width: 260px;
+	}
+
+	.image {
+	    flex-direction: column;
+	    width: 50%;
+	    margin: auto;
+	    padding-bottom: 60px;
+	    margin-top: -50px;
+	}
+	
+	.figure-right{
+		display: none;
+	}
+
+	.switch{
+		display: none;
+	}
+	
+	.block-center{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.people-block{
+		padding-bottom: 40px;
+	}
+
+	.block-sixth{
+		flex-direction: column;
+	}
+
+	.block-sixth__img {
+	    position: relative;
+	    width: 80%;
+		margin:auto;
+	}
+
+	.withdrawa-img {
+		width: 100%;
+	    text-align: center;
+	    margin-left: 0px;
+	}
+
+	.sixth__offer{
+		margin: 0;
+		text-align: center;
+	}
+
+	.withdrawa-img img{	
+		padding-left: 20px;
+	}
+
+	.block-contacts{
+		flex-direction: column;
+	}
+
+	.contact {
+	    padding-bottom: 40px;
+	    width: 50%;
+		margin-left: 25%;
+	}
+
+	.figure-bottom {
+		display: none;
+	}
 }
+
+@media only screen and (max-width: 840px) {
