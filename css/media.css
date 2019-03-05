@@ -111,6 +111,7 @@
 
 	.left-block{
 		width: 90%;
+		margin: auto;
 	}
 
 
@@ -189,4 +190,43 @@
 	}
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 650px) {
+	.second-img{
+		display: none;
+	}
+
+	.offer{
+		 font-size: 36px;
+	}
+
+	.second__offer{
+	 position: static;
+		margin: 0;
+		text-align: center;
+		color: #494949;
+		padding-bottom: 40px;
+	}
+
+	.sixth__figure-left {
+	    border-top: 225px solid transparent;
+	    border-left: 225px solid #bc2e3a;
+	    border-bottom: 225px solid transparent;
+	    margin-top: 50px;
+	}
+
+	.image {
+		width: 100%;
+	}
+
+	.fifth__figure-left {
+	    margin-top: -100px;
+	    border-top: 100px solid transparent;
+	    border-left: 100px solid #171717;
+	    border-bottom: 100px solid transparent;
+	}
+
+	.contact {
+	    width: 90%;
+    	margin-left: 10%;	
+    }
+}
